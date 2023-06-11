@@ -1,0 +1,36 @@
+# Font Properties
+font.family: "Times New Roman"
+font.size: 10
+
+# Axes Properties
+axes.linewidth: 1
+axes.labelpad: 4
+axes.prop_cycle: cycler(color=["01befe", "ff006d", "adff02", "8f00ff", "ffdd00", "ff7d00"])
+
+# Grid Properties
+axes.grid: True
+grid.color: "#b0b0b0"
+grid.linewidth: 0.5    
+grid.alpha: 0.6        
+
+# Ticks Properties
+xtick.top: True
+xtick.major.size: 6
+xtick.major.width: 1
+xtick.minor.size: 4
+xtick.minor.width: 1
+
+ytick.right: True
+ytick.major.size: 6
+ytick.major.width: 1
+ytick.minor.size: 2
+ytick.minor.width: 1
+
+# Legend Properties
+legend.framealpha: 1.0
+legend.frameon: False
+legend.loc: "center left"
+legend.borderpad: 1
+
+# Lines Properties
+lines.linewidth: 2
