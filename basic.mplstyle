@@ -38,4 +38,3 @@ lines.linewidth: 1.5
 # Scatter Properties
 scatter.marker: o
 scatter.edgecolors: black
-scatter.markersize: 2
