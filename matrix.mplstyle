@@ -70,7 +70,7 @@ figure.subplot.hspace: 0.1
 # IMAGES
 image.aspect: equal
 image.interpolation: antialiased
-image.cmap: spectral
+image.cmap: Spectral_r
 image.origin: lower
 image.resample: True
 image.composite_image: True
