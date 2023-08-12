@@ -1,40 +1,98 @@
-# Font Properties
-font.family: "Times New Roman"
+# FONT
+font.family: serif
+font.style: normal
+font.variant: normal
+font.weight: normal
+font.stretch: normal
 font.size: 10
 
-# Axes Properties
-axes.linewidth: 1
-axes.labelpad: 4
+# AXES
+axes.titlesize: 11
+axes.titleweight: normal
+axes.labelsize: 10
+axes.labelpad: 4.0
+axes.labelweight: normal
+
+axes.spines.left: True
+axes.spines.bottom: True
+axes.spines.top: False
+axes.spines.right: False
+
 axes.prop_cycle: cycler(color=["01befe", "ff006d", "adff02", "8f00ff", "ffdd00", "ff7d00"])
 
-# Grid Properties
-axes.grid: True
-grid.color: "#b0b0b0"
-grid.linewidth: 0.5    
-grid.alpha: 0.6        
-
-# Ticks Properties
-xtick.top: True
+# TICKS
+xtick.top: False
 xtick.major.size: 6
 xtick.major.width: 1
 xtick.minor.size: 4
 xtick.minor.width: 1
 
-ytick.right: True
+ytick.right: False
 ytick.major.size: 6
 ytick.major.width: 1
 ytick.minor.size: 2
 ytick.minor.width: 1
 
-# Legend Properties
-legend.framealpha: 1.0
-legend.frameon: False
-legend.loc: "center left"
-legend.borderpad: 1
+# GRIDS
+axes.grid: False
+grid.color: "#b0b0b0"
+grid.linestyle: -
+grid.linewidth: 0.4
+grid.alpha: 0.6
 
-# Lines Properties
-lines.linewidth: 1.5
+# LEGEND
+legend.loc: center left
+legend.frameon: True
+legend.framealpha: 0.5
+legend.edgecolor: 0.0
+legend.fancybox: True
+legend.shadow: False
+legend.numpoints: 3
+legend.scatterpoints: 3
+legend.markerscale: 1.0
+legend.fontsize: 10
+legend.title_fontsize: 11
 
-# Scatter Properties
+# FIGURE
+figure.autolayout: True
+figure.titlesize: 11
+figure.titleweight: normal
+figure.labelsize: 11
+figure.labelweight: normal
+figure.figsize: 6, 4
+figure.dpi: 300
+figure.facecolor: (0, 0, 0, 0)
+figure.edgecolor: (0, 0, 0, 0)
+figure.frameon: True
+figure.subplot.wspace: 0.1
+figure.subplot.hspace: 0.1
+
+# IMAGES
+image.aspect: equal
+image.interpolation: antialiased
+image.cmap: spectral
+image.origin: lower
+image.resample: True
+image.composite_image: True
+
+# CONTOUR PLOTS
+contour.negative_linestyle: dashed  # string or on-off ink sequence
+contour.corner_mask: True    # {True, False}
+contour.algorithm: mpl2014 # {mpl2005, mpl2014, serial, threaded}
+
+# ERRORBAR PLOTS
+errorbar.capsize: 5
+
+# HISTOGRAM PLOTS
+hist.bins: 20
+
+# SCATTER PLOTS
 scatter.marker: o
 scatter.edgecolors: black
+
+# SAVING FIGURES
+savefig.dpi: 300
+savefig.facecolor: (0, 0, 0, 0)
+savefig.edgecolor: (0, 0, 0, 0)
+savefig.format: svg
+savefig.transparent: True
