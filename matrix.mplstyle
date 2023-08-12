@@ -18,7 +18,7 @@ axes.spines.bottom: True
 axes.spines.top: True
 axes.spines.right: True
 
-axes.prop_cycle: cycler(color=["01befe", "ff006d", "adff02", "8f00ff", "ffdd00", "ff7d00"])
+axes.prop_cycle: cycler(color=["#377eb8", "#e41a1c", "#4daf4a", "#984ea3", "#ff7f00", "#ffff33", "#a65628", "#f781bf"])
 
 # TICKS
 xtick.top: False
