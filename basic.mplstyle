@@ -60,7 +60,7 @@ figure.titleweight: normal
 figure.labelsize: 11
 figure.labelweight: normal
 figure.figsize: 6, 4
-figure.dpi: 300
+figure.dpi: 100
 figure.facecolor: (0, 0, 0, 0)
 figure.edgecolor: (0, 0, 0, 0)
 figure.frameon: True
