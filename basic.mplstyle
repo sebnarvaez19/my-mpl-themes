@@ -42,13 +42,13 @@ grid.alpha: 0.6
 
 # LEGEND
 legend.loc: center left
-legend.frameon: True
+legend.frameon: False
 legend.framealpha: 0.5
 legend.edgecolor: 0.0
 legend.fancybox: True
 legend.shadow: False
-legend.numpoints: 3
-legend.scatterpoints: 3
+legend.numpoints: 1
+legend.scatterpoints: 1
 legend.markerscale: 1.0
 legend.fontsize: 10
 legend.title_fontsize: 11
